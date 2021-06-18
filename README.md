@@ -9,4 +9,4 @@ The Todos will not be cleared, until the user cleares it.
  * CSS
  * Javascript
 
-Watch the code live [https://lakshman-todoapp.surge.sh](here)
+Watch the code live [here](https://lakshman-todoapp.surge.sh)
