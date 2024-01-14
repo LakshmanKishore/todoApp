@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="todo.css">
-    <script type="text/javascript" src="todo.js"></script>
+    
 </head>
 
 <body>
@@ -16,12 +16,19 @@
         <div>
             <input type="text" class="form-control inp" aria-label="Sizing example input"
                 placeholder="Buy some Cookies 🍪..." aria-describedby="inputGroup-sizing-default">
-            <div class="btn btn-primary submit">
+            <div class="btn btn-primary submit mt-2">
                 Add Todo
+            </div>
+            <!-- <div class="btn btn-danger deleteAllButton mt-2">
+                Delete All
+            </div> -->
+            <div class="btn btn-info infoButton mt-2">
+                ?
             </div>
         </div>
         <ul class="list-group todoList"></ul>
     </div>
+    <script type="text/javascript" src="todo.js"></script>
 </body>
 
 </html>
